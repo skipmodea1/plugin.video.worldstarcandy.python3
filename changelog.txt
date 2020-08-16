@@ -1,0 +1,19 @@
+v1.0.3-SNAPSHOT (2018-02-24)
+- removing non-ascii characters in title in parameters to prevent UnicodeDecodeError: 'ascii' codec can't decode ...
+The error occured when doing urllib.parse.parse_qs of the parameters
+
+v1.0.2 (2018-01-21)
+- removed looking for video dialogue
+- addon now works in kode python 2 and should also work in python 3 (!!) once all dependencies work in python 3.
+Kudo's to the python future package for making this possible. Kudo's to RomanVM for the help.
+
+v1.0.1 (2017-04-14):
+- adjusted video detection to website changes
+- fixed url in addon.xml as per request
+- changed 'xbmc' to 'kodi' in some text
+- not using addon-name in xbmcaddon.Addon() anymore (thanks enen92)
+- using po-files
+- changed addon debugging info to kodi debugging info
+
+v1.0.0 (2016-05-26):
+- initial version
