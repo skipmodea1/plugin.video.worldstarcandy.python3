@@ -8,7 +8,6 @@ from future import standard_library
 standard_library.install_aliases()
 from builtins import str
 from builtins import object
-from worldstarcandy_const import ADDON, SETTINGS, LANGUAGE, DATE, VERSION, HEADERS, convertToUnicodeString, log, getSoup
 import requests
 import sys
 import urllib.parse
@@ -16,6 +15,7 @@ import xbmc
 import xbmcgui
 import xbmcplugin
 
+from resources.lib.worldstarcandy_const import ADDON, SETTINGS, LANGUAGE, DATE, VERSION, HEADERS, convertToUnicodeString, log, getSoup
 
 #
 # Main class
